@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500;600&family=Odibee+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <!-- css style -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- JavaScript -->
+    <script defer src="./js/index.js"></script>
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="logo u-margin-bg-lg">
+      <img class="logo-icon" src="./images/logo.svg" alt="logo" />
+    </div>
+
+    <section class="master">
+      <div class="image right">
+        <img class="image-hero" src="./images/hero-desktop.jpg" alt="hero" />
+        <!-- <img  class="image-hero" alt="hero" srcset="./images/hero-desktop.jpg 2x , ./images/hero-mobile.jpg 1x"> -->
+      </div>
+      <div class="left">
+        <div class="left-content">
+          <header>
+            <h1 class="heading-primary">
+              <span>We're</span> <br />
+              coming <br />
+              soon
+            </h1>
+          </header>
+          <p class="paragraph">
+            Hello fellow shoppers! We're currently building our new fashion
+            store. Add your email below to stay up-to-date with announcements
+            and our launch deals.
+          </p>
+          <div class="email-form">
+            <form id="form" novalidate>
+              <input
+                id="email"
+                type="email"
+                placeholder="Email Address"
+                aria-label="Email Address"
+              />
+              <img id="error" src="./images/icon-error.svg" alt="icon error" />
+              <button id="sub-button" type="submit">
+                <img src="./images/icon-arrow.svg" alt="arrrow" id="arrow" />
+              </button>
+              <small id="small">Please provide a valid email</small>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- We're coming soon Hello fellow shoppers! We're currently building our new
+    fashion store. Add your email below to stay up-to-date with announcements
+    and our launch deals. Email Address -->
+
+    <!-- <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </p>
+    </footer> -->
+  </body>
+</html>

@@ -1,0 +1,40 @@
+.left {
+  width: 100%;
+  background-image: url(../../images/bg-pattern-desktop.svg),
+    linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  order: 1;
+  flex: 1;
+  justify-content: center;
+
+  @media only screen and (max-width: 43.75em) {
+    order: 2;
+    width: initial;
+    padding: 4rem;
+  }
+  &-content {
+    margin: 5rem;
+    padding-left: 10rem;
+    @media only screen and (max-width: 68.75em) {
+      padding-left: 0;
+      padding-top: 5rem;
+    }
+    @media only screen and (max-width: 43.75em) {
+      margin: 0;
+      align-self: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
+header {
+  margin-bottom: 2rem;
+}
+span {
+  color: $Desaturated-Red;
+  font-weight: 100;
+}

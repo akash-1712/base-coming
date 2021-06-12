@@ -1,0 +1,29 @@
+// logo
+.logo {
+  position: absolute;
+  display: inline;
+  z-index: 1;
+  @media only screen and (max-width: 43.75em) {
+    position: relative;
+    display: block;
+  }
+}
+
+.master {
+  // width: 100vw;
+  // height: 100vh;
+  display: flex;
+  flex-direction: row;
+ 
+
+  @media only screen and (max-width: 43.75em) {
+    flex-direction: column;
+  }
+}
+
+.right {
+  //   grid-area: bb;
+}
+.left {
+  //   grid-area: aa;
+}
